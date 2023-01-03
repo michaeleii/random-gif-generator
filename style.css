@@ -16,6 +16,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 10px;
 }
 input {
 	margin-bottom: 20px;
@@ -37,7 +38,7 @@ input:focus-visible {
 	color: white;
 	font-size: 1.25em;
 	font-weight: bold;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 .btn:hover {
 	background-color: #0571a3;

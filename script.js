@@ -10,5 +10,6 @@ const getImage = (searchInput) => {
 		.then((res) => res.json())
 		.then((res) => {
 			img.src = res.data.images.original.url;
+			img.style.border = "solid 5px var(--secondary-color)";
 		});
 };
